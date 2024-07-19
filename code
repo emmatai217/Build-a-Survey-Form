@@ -41,11 +41,35 @@
   </label>
 </fieldset>
 
-<field></field>
-<field></field>
-<field></field>
-<field></field>
-<field></field>
+
+<fieldset>
+  <legend for="recommend">
+    Would you recommend freeCodeCamp to a friend?
+</legend>
+
+<label for="definitely"><input type="radio" id="definitely" name="recommend" checked />Definitely</label>
+
+<label for="maybe"><input type="radio" id="maybe" name="recommend" checked />Maybe</label>
+
+<label for="notsure"><input type="radio" id="notsure" name="recommend" checked />Not sure</label>
+
+</fieldset>
+
+<fieldset>
+
+</fieldset>
+
+<fieldset>
+
+</fieldset>
+
+<fieldset>
+
+</fieldset>
+
+<fieldset>
+
+</fieldset>
 
 </form>
 </body>
