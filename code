@@ -47,11 +47,11 @@
     Would you recommend freeCodeCamp to a friend?
 </legend>
 
-<label for="definitely"><input type="radio" id="definitely" name="recommend" checked />Definitely</label>
+<label for="definitely"><input type="radio" id="definitely" name="recommend" value="Definitely" checked />Definitely</label>
 
-<label for="maybe"><input type="radio" id="maybe" name="recommend" checked />Maybe</label>
+<label for="maybe"><input type="radio" id="maybe" name="recommend" value="Maybe" checked />Maybe</label>
 
-<label for="notsure"><input type="radio" id="notsure" name="recommend" checked />Not sure</label>
+<label for="notsure"><input type="radio" id="notsure" name="recommend" value="Not sure" checked />Not sure</label>
 
 </fieldset>
 
@@ -74,12 +74,13 @@
 <fieldset>
 
 <legend>What would you like to see improved? (Check all that apply)</lenged>
+<label for"selections">
 
-<label><input type="checkbox"/>Front-end Projects</label>
+<label class="inline"><input type="checkbox"/>Front-end Projects</label>
 
-<label><input type="checkbox"/>Back-end Projects</label>
+<label class="inline"><input type="checkbox"/>Back-end Projects</label>
 
-<label><input type="checkbox"/>Data Visualization</label>
+<label class="inline"><input type="checkbox"/>Data Visualization</label>
 
 <label><input type="checkbox"/>Challenges</label>
 
@@ -96,6 +97,7 @@
 <label><input type="checkbox"/>Forum</label>
 
 <label><input type="checkbox"/>Additional Courses</label>
+</label>
 
 </fieldset>
 
