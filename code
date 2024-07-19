@@ -26,13 +26,15 @@
     <select id="" name="user-role">
       <option value="">Select current role</option>
 
-      <option value="1"></option>
+      <option value="1">Student</option>
 
-      <option value="2"></option>
+      <option value="2">Full Time Job</option>
 
-      <option value="3"></option>
+      <option value="3">Full Time Learn</option>
 
-      <option value="4"></option>
+      <option value="4">Prefer not to say</option>
+
+      <option value="5">Other</option>
 
     </selcet>
 
