@@ -15,12 +15,12 @@
 
 <fieldset>
 <form id="survey-form" for="user-id">
-  <label if="name-label">Name<input type="text" id="name" name="name-label" placeholder="Enter your name" required></label>
+  <label id="name-label">Name<input type="text" id="name" name="name-label" placeholder="Enter your name" required></label>
 
   <label id="email-label">Email<input type="email" id="email" name="email-label" placeholder="Enter your Email" required></label>
 
   <label id="number-label">Age
-(optional)<input type="number" name="number-label" id="number" min="13" max="120"></label>
+(optional)<input type="number" name="number-label" id="number" min="13" max="120" placeholder="Age"></label>
 
   <label id="user-role">Which option best describes your current role?
     <select id="dropdown" name="user-role">
