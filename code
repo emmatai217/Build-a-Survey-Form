@@ -4,12 +4,46 @@
 <head> 
 <meta charset="UTF-8">
 <link rel="stylesheet" href="styles.css" />
-<h1 id="title">freeCodeCamp Survey Form</h1>
-<p id="description">Thank you for taking the time to help us improve the platform</p>
+<title>freeCodeCamp Survey Form</title>
 </head>
 
 <body>
-<form id="survey-form"">
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+
+
+<fieldset>
+<form id="survey-form" for="user-id">
+  <label>Name<input type="text" id="name" name="user-id" placeholder="Enter your name" requied></label>
+
+  <label for="user-email">Email<input type="email" name="user-email" placeholder="Enter your Email" requied></label>
+
+  <label for="user-age">Age
+(optional)<input type="number" name="user-age" min="13" max="120"></label>
+
+  <label for="user-role">Which option best describes your current role?
+    <select id="" name="user-role">
+      <option value="">Select current role</option>
+
+      <option value="1"></option>
+
+      <option value="2"></option>
+
+      <option value="3"></option>
+
+      <option value="4"></option>
+
+    </selcet>
+
+  </label>
+</fieldset>
+
+<field></field>
+<field></field>
+<field></field>
+<field></field>
+<field></field>
 
 </form>
 </body>
