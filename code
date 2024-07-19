@@ -56,6 +56,20 @@
 </fieldset>
 
 <fieldset>
+  <legend>What is your favorite feature of freeCodeCamp?</legend>
+
+  <label>
+    <select>
+
+      <option value="">Select an option</option>
+      <option value="1">Challenges</option>
+      <option  value="2">Projects</option>
+      <option  value="3">Community</option>
+      <option value="4">Open Source</option>
+
+    </select>
+  </label>
+
 
 </fieldset>
 
