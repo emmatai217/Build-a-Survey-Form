@@ -23,7 +23,7 @@
 (optional)<input type="number" name="user-age" id="number-label" min="13" max="120"></label>
 
   <label for="user-role">Which option best describes your current role?
-    <select id="" name="user-role">
+    <select id="dropdown" name="user-role">
       <option value="">Select current role</option>
 
       <option value="1">Student</option>
