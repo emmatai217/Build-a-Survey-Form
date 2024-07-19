@@ -13,8 +13,9 @@
 
 
 
-<fieldset>
+
 <form id="survey-form" class="survey-form">
+<fieldset>
   <label id="name-label">Name<input type="text" id="name" name="name-label" placeholder="Enter your name" required></label>
 
   <label id="email-label">Email<input type="email" id="email" name="email-label" placeholder="Enter your Email" required></label>
@@ -92,11 +93,10 @@
 
 <fieldset>
   <legend>Any comments or suggestions?</legend>
- <label><input type="textarea" placeholder="Enter your comment here..."/></label>
+<label for="comment"><textarea name="comment" placeholder="Enter your comment here..."/></textarea><label>
 </fieldset>
 
-<button id=submit type="submit" value="submit">Submit</button>
-
+<button id="submit" type="submit">Submit</button>
 </form>
 </body>
 </html>
