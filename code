@@ -100,12 +100,11 @@
 </fieldset>
 
 <fieldset>
-
+  <legend>Any comments or suggestions?</legend>
+ <label><input type="textarea" placeholder="Enter your comment here..."/></label>
 </fieldset>
 
-<fieldset>
-
-</fieldset>
+<input type="submit" value="summit" />
 
 </form>
 </body>
